@@ -34,4 +34,4 @@ An error is output.
 ERROR  reading user config file: could not create any of the following paths: /root/.config/turborepo, /etc/xdg/turborepo
 ```
 
-![](https://unity.gyazo.com/3201222e50007df0efdf82cac0c83986.png)
+![](https://t.gyazo.com/teams/unity/3201222e50007df0efdf82cac0c83986.png)
