@@ -2,9 +2,7 @@ version: "3.8"
 
 services:
   app:
-    image: node:16.14.2-alpine
-    command: sh -c "apk add --update --no-cache git && git --version && npm i && npm run build"
-    volumes:
-      - .:/app
-      - /app/node_modules
-    working_dir: /app
+    image: test
+    build:
+      context: .
+    command: sh -c "npm i && npm run build"
