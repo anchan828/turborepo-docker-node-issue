@@ -5,4 +5,4 @@ services:
     image: test
     build:
       context: .
-    command: sh -c "npm i && npm run build"
+    command: sh -c "npm run build"
